@@ -1,0 +1,9 @@
+{
+	"name": "basicfund",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9539851a-399d-491c-b00a-91796c9e6756",
+		"tenantId": "aa620cc7-80d1-40c7-94a6-9e44f41d2258"
+	}
+}

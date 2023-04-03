@@ -1,0 +1,40 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Total",
+				"description": "Addition of A and B",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "total",
+					"value": {
+						"value": "@string(add(pipeline().parameters.A,pipeline().parameters.B))",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"A": {
+				"type": "int"
+			},
+			"B": {
+				"type": "int"
+			}
+		},
+		"variables": {
+			"total": {
+				"type": "String"
+			},
+			"Avg": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2023-03-25T07:14:33Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

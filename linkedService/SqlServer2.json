@@ -1,0 +1,12 @@
+{
+	"name": "SqlServer2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=sqldemo02.database.windows.net;initial catalog=fristsqldemo;user id=sqldemosever",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEExQjk5NzE5LTk5QTUtNDE3OC05NUI5LTE0MTg0RDc3MTcyOV84Mjc3MmQwZS1jOWY5LTRiMTQtODU0Yy0xN2Y1ZWQyNWVlZGEiDQp9"
+		}
+	}
+}
